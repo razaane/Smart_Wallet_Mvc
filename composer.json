@@ -1,0 +1,17 @@
+{
+    "name": "razaaaaaaane/smart_wallet_mvc",
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "app/controllers/",
+            "App\\Models\\": "app/models/",
+            "App\\Core\\": "app/core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "razane",
+            "email": "wakhidirazane@gmail.com"
+        }
+    ],
+    "require": {}
+}

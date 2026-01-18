@@ -23,11 +23,11 @@ class Database{
             
             self::$instance=new Database ($dsn,$username,$password);
         }
-
+        
         return self::$instance;
     }
 
-    public function getConnexion($pdo){
+    public function getConnexion(){
         return $this->pdo;
     }
     
